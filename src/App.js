@@ -1,25 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import harvard from './harvard.png';
+import MediaCard from './MediaCard';
+import Gate from './Gate';
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MediaCard title="This is CS50" body={<p> <b>Harvard University's</b> Introduction to the Intellectual Enterprises Of <b>Computer Science</b></p>} imgUrl={harvard}/>
+      <Gate isOpen={false}/>
     </div>
   );
 }
-
-export default App;
