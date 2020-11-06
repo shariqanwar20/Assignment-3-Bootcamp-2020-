@@ -1,3 +1,8 @@
+###Errors I encountered in this assignment
+1. You need to get rid of all warnings or else yarn build will fail
+2. you cannot import stuff from outside src
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
