@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import harvard from './harvard.png';
 import MediaCard from './MediaCard';
